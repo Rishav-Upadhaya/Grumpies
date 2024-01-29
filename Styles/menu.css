@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar {
+    width: 100%;
+    height: 75px;
+    justify-items: center;
+    background-color: #581900;
+    color: white;
+  }
+  .navbar1 {
+    display: inline-flex;
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .navbar1 img {
+    height: 63px;
+    width: 110px;
+  }
+  .navButton a button {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+  }
+  .navButton a > button {
+    width: 96.439px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: transparent;
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+  }
+
+  .navButton a > button:hover {
+    cursor: pointer;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+    color: #581900;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .navbar a p {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar a p:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 625px;
+  }
+  .sidebody {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .sidebody * {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .sidebody p {
+    width: 180px;
+    border: 1px solid #581900;
+    text-align: left;
+    margin-top: 4px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .sidebody p:hover{
+    background-color: #581900;
+    color: white;
+  }
+  .sidebody h2 {
+    width: 180px;
+    text-align: left;
+  }
+  .categoryBox {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 35% 35% 35% auto;
+  }
+  .category > * {
+    gap: 2px;
+  }
+  .mainBody {
+    /*border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .card {
+    height: 230px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    padding-top: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .card > p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .addCart {
+    background-color: #581900;
+    color: white;
+    height: 30px;
+    display: flex;
+    padding: 5px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .addCart:hover {
+    background-color: white;
+    color: #581900;
+    border-top: 1px solid #581900;
+    font-weight: bold;
+  }
+  .addCart > p {
+    width: 100%;
+    text-align: center;
+  }
+  .card > img {
+    width: 150px;
+    height: 120px;
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in at Grumpies</title>
+    <link rel="icon" type="image/x-icon" href="Photos/cheeseburger.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/Signin.css">
+    <script src="https://kit.fontawesome.com/029e5145ff.js" crossorigin="anonymous"></script>
+    <script src="Grumpies.js"></script>
+</head>
+<body>
+    <div class="col">
+        
+        <div class="col1">
+            <div class="return">
+                <a href="Grumpies.html"> <i class="fa-solid fa-arrow-left"></i> </a>
+            </div>
+            <img src="Photos/the-grumpies-logo1.png" alt="">
+        </div>
+        <form onsubmit="return validate()" action="Menu.html">
+        <div class="col2">
+                <div class="heading">
+                    <h1>Hello, Welcome Back!</h3>
+                </div>
+                <div class="col21">
+                    <p>Username/Email</p>
+                    <input type="text" name="userName" id="uname" placeholder="Write Your Email...." required>
+                </div>
+                <div class="col22">
+                    <p>Password</p>
+                    <input type="password" name="Password" id="pass" placeholder="Password..." required>
+                </div>
+                <div class="registor_button">
+                    <button type="submit" class="Signin active">Sign In</button>
+                    <button type="button" class="signin_google_auth">Sign in with <img src="Photos/image 3.png" alt=""></button>
+                </div>
+                <div class="google_auth">
+                    <p>New in Grumpies?, <a href="#" class="registerNow">Register Now</a></p>
+                </div>
+            
+        </div>
+    </form>
+    </div>
+</body>
+</html>
