@@ -145,7 +145,45 @@
     width: 100%;
     text-align: center;
   }
-  .card a> img {
-    width: 150px;
-    height: 120px;
+  /* .img{
+    padding: 45px 45px;
+  } */
+  .img > img{
+    width: 550px;
+    height: 420px;
+  }
+
+  .body{
+    display: flex;
+    padding: 35px 35px;
+    gap: 80px;
+  }
+
+  .burger{
+    display: grid;
+    gap: 20px;
+}
+  .buttons > button{
+    cursor: pointer;
+    background: #581900;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px; */
+    width: 260px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    justify-content: space-between;
+  }
+  .buttons > button:hover{
+    background: white;
+    color: #581900;
+    border: 1px solid #581900;
+  }
+  .quantity {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart_options{
+    gap: 0px;
+    display: grid;
+    grid-auto-rows: 60px 30px 40px 50px 46px;
   }
