@@ -1,1 +1,1 @@
-The file is about building grumpies, my 2nd semester project!
+The file is about building grumpies (food ordering webiste), my 2nd semester project!
